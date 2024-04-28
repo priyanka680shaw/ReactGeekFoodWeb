@@ -1,0 +1,32 @@
+
+.mainContainer{
+
+   
+    /* background-color: var(--bgColor); */
+}
+
+.text{
+    width: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 12px;
+    box-shadow: -2px -2px 7px 2px rgb(205, 201, 201), 2px 2px 7px 2px rgb(215, 213, 213);
+}
+
+.text>p{
+    text-align: justify;
+}
+
+.userinfo{
+    width: 300px;
+   
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;padding: 5px 10px;
+    
+}
+
+.userName{
+    /* background-color: aqua; */
+    padding: 0px 30px;
+}

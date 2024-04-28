@@ -1,0 +1,32 @@
+.mainContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(61, 60, 60);
+    cursor: pointer;
+}
+
+.innerContainer{
+    width: 100%;
+    background-color:#bacfd0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.menu>li{
+   padding: 0px 15px;
+   list-style-type: none;
+   font-size: 20px;
+  
+}

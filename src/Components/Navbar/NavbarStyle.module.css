@@ -1,0 +1,41 @@
+.outerContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color:#bacfd0;
+}
+
+.innerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 12px 0px;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+
+.webSiteName{
+    margin-left: 15px;
+}
+
+.list>ul{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.list>ul>li{
+    margin: 10px 30px;
+    font-size: 20px;
+    list-style: none;
+    font-weight: 500;
+    cursor: pointer;
+}
