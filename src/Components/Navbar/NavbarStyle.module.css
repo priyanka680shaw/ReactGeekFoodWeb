@@ -1,3 +1,10 @@
+.navbar{
+    position: sticky;
+    top: 0px;
+    width: 100%;     
+    z-index: 100;
+}
+
 .outerContainer{
     display: flex;
     justify-content: center;
@@ -38,4 +45,17 @@
     list-style: none;
     font-weight: 500;
     cursor: pointer;
+}
+
+li{
+    margin: 10px 30px;
+    font-size: 20px;
+    list-style: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+li:hover{
+    color: White;
+    text-decoration: underline;
 }

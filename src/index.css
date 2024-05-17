@@ -2,9 +2,18 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-
+  
 }
 
 :root{
   --bgColor : #F3F4F6
 }
+
+::-webkit-scrollbar {
+  display: none;
+  
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
