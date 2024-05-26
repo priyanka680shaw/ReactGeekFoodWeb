@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './ButtonStyle.module.css'
 export const Button = (props) => {
-    console.log(props)
+    //console.log(props)
     return (
 
         <>
